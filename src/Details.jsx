@@ -3,13 +3,13 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/headshot.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
 import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
-import react from "./assets/techstack/react.png";
+import react from "./assets/techstack/react.svg";
 import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
@@ -19,12 +19,33 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import mongo from "./assets/techstack/mongodb.svg";
+import cplus from "./assets/techstack/c++.svg";
+import flutter from "./assets/techstack/flutter.svg";
+import flask from "./assets/techstack/flask.svg";
+import arduino from "./assets/techstack/arduino.svg";
+import python from "./assets/techstack/python.svg";
+import java from "./assets/techstack/java.svg";
+import angular from "./assets/techstack/angular.svg";
+import android from "./assets/techstack/android.svg";
+import typescript from "./assets/techstack/ts.svg";
+import firebase from "./assets/techstack/firebase.svg";
+import express from "./assets/techstack/express.svg";
+import node from "./assets/techstack/node.svg";
+import postgres from "./assets/techstack/postgresql.svg";
+import mysql from "./assets/techstack/mysql.svg";
+
+//add unity and next as well as aws ans azure, swift, react native heroku C and C#
+
+
+
+
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
+import projectImage1 from "./assets/projects/drake.png";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
+import projectImage5 from "./assets/projects/tinkercad1.png";
 import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
@@ -43,8 +64,8 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/pj-samuels/",
+  github: "https://github.com/PJ-Samuels/",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
@@ -103,6 +124,7 @@ export const eduDetails = [
 export const techStackDetails = {
   html: html,
   css: css,
+  flask: flask,
   js: js,
   react: react,
   redux: redux,
@@ -113,8 +135,22 @@ export const techStackDetails = {
   postman: postman,
   npm: npm,
   git: git,
+  mongo: mongo,
   github: github,
   figma: figma,
+  cplus: cplus,
+  flutter: flutter,
+  arduino: arduino,
+  python: python,
+  java: java,
+  typescript: typescript,
+  angular: angular,
+  android: android,
+  firebase: firebase,
+  express: express,
+  node: node,
+  postgres: postgres,
+  mysql: mysql,
 };
 
 // Enter your Project Details here
