@@ -10,5 +10,6 @@ export default defineConfig({
     postcss: {
       plugins: [tailwindcss()],
     },
-  }
+  },
+  base: "./github.com/PJ-Samuels/portfolio2",
 })
