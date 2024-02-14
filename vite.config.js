@@ -11,5 +11,5 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
-  base: "./github.com/PJ-Samuels/portfolio2",
+  base: "./portfolio2/"
 })
