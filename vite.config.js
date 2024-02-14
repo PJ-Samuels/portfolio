@@ -9,5 +9,9 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
-  base: "https://pj-samuels.github.io/portfolio2/"
+  esbuild: {
+    jsxFactory: 'h',
+    jsxFragment: 'Fragment',
+  },
+  base: "/portfolio2/"
 })
