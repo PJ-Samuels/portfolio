@@ -57,13 +57,13 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center">
-      <div>
+  <main className="container mx-auto max-width section flex flex-col md:flex-row justify-center items-center">
+      <div className="text-center md:text-left md:w-1/2 pr-20">
         <h1
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hi,👋<br></br>My Name is<br></br>
+          Hi, My name is<br/>
         </h1>
         <h1
           ref={h12}
@@ -71,7 +71,6 @@ function Home() {
         >
           {name}
         </h1>
-        
         <h2
           ref={h13}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
@@ -79,8 +78,14 @@ function Home() {
           {tagline}
         </h2>
       </div>
-      <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Pavan MG" />
+      <div className="mt-5 md:mt-0 md:w-1/2 pl-20 overflow-hidden">
+        <img
+          ref={myimageref}
+          className="w-2/3 h-2/3 rounded-full object-cover"
+          src={img}
+          alt="PJ Samuels"
+          style={{ aspectRatio: '1 / 1' }}
+        />
       </div>
     </main>
   );

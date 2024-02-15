@@ -56,7 +56,7 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Oliver Samuels",
+  name: "PJ Samuels",
   tagline: "I'm a Full-Stack Software Developer",
   img: profile,
   about: `Hey I'm Oliver Samuels, a Full-Stack and Mobile-App Web Developer. I have a strong background in team collaborations and have successfully delivered and worked on various web development projects. My current focus is on launching my career as a full-stack web developer, with ongoing projects in React and Angular. Additionally, I'm developing a mobile app using Flutter and working on a hardware project utilizing Arduino`,
@@ -81,7 +81,7 @@ export const workDetails = [
   {
     Position: "Software Engineer Intern",
     Company: `Nasdaq`,
-    Location: "Boston, Ma",
+    Location: "Boston, MA",
     Type: "Internship",
     Duration: "June 2022 - Aug 2022",
   },
@@ -114,7 +114,7 @@ export const eduDetails = [
   {
     Position: "Bachelor in Computer Science",
     Company: `Boston Univeristy`,
-    Location: "Boston",
+    Location: "Boston, MA",
     Type: "Full Time",
     Duration: "Aug 2020 -  May 2023",
   },

@@ -47,7 +47,7 @@ function Technologies() {
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
 
-        <img src={react} title="React" alt="" />
+        <img src={react} title="React" alt="" style={{ filter: 'hue-rotate(180deg)' }} />
         <img src={angular} title="Angular" alt="" />
         <img src={flask} title="Flask" alt="" />
         <img src={node} title="Node.js" alt="" />
