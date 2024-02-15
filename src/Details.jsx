@@ -158,13 +158,10 @@ export const projectDetails = [
   {
     title: "Notified",
     image: projectImage1,
-    description: `Web and Mobile Application
-
-    Summary: Experience the ultimate music companion with our Music Notification App—a seamless blend of web and mobile applications designed to keep you in tune with your favorite music tracks and artists. Stay up-to-date with the latest releases and never miss a beat.
-    Features:
-    Real-time Notifications: Receive instant notifications about new music releases, personalized playlists, and artist updates, ensuring you're always in the know.
-    Cross-Platform Access: Enjoy the app's full functionality whether you're on your desktop or using your mobile device, ensuring continuous music discovery and enjoyment.
-    Personalized Playlists: Curate your own playlists or discover personalized playlists based on your music preferences, moods, and listening history.`,
+    description: `
+    A music notification web and mobile app that keeps you updated with the latest music releases and artist updates. 
+    Receive real-time banners, emails, and texts notifications when an artist releases a new album, feature or single. 
+    Keep a list of favorite artists and receive notifications when they release new music.`,
     techstack: "React.js, PostgreSQL, Express.js, Node.js, Spotify API, Flutter",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Notified-App",
@@ -172,15 +169,10 @@ export const projectDetails = [
   {
     title: "Fitness Finder",
     image: projectImage2,
-    description: `Web-App Application
-
-    Summary: Experience the convenience of finding the perfect fitness center near you with our Fitness Center Locator web application.
-    Whether you're a fitness enthusiast or just beginning your health journey, our app helps you locate and explore fitness centers tailored to your preferences.
-    Features:
-    Location-Based Search: Quickly discover fitness centers based on your location, ensuring convenience and accessibility.
-    Detailed Information: Get details about each fitness center, including facilities, classes, trainers, and user reviews.
-    User Reviews and Ratings: Make informed decisions by reading user reviews and ratings for each fitness center.
-    Personalized Recommendations: Receive personalized recommendations based on your fitness goals, preferences, and activity levels.`,
+    description: `
+    A web application that helps users find fitness centers near them. Users can search for fitness centers based on their location, preferences, and fitness goals. 
+    The app provides detailed information about each fitness center, including facilities, classes, trainers, and user reviews.
+    `,
     techstack: "Angular, TypeScript, Express, Node, Mongodb, Google Firebase",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Fitness-Center-App",
@@ -188,8 +180,9 @@ export const projectDetails = [
   {
     title: "Pixel Man",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `This is a simple
+    2D platformer video game with various enemies and obstacles to avoid as the 
+    user traverses through multiple levels.`,
     techstack: "Unity, C#",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Pixel-Man-1",
@@ -197,8 +190,8 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Video Game Rater",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `A mobile app allowing users to list video games they have played and rate them. 
+    Share video game ratings with friends and view other users lists and ratings.`,
     techstack: "React Native, Google Firebase, RAWG API",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Stock-Visualizer"
@@ -206,7 +199,7 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Arduino Boards",
     image: projectImage5,
-    description: `Introductry level electrical engineering and circuitry utilizing C++, Tinkercard, Arduino, and physical breadboards`,
+    description: `Introductry level Electrical Engineering and circuitry utilizing C++, Tinkercard, Arduino, and physical breadboards to get a grasp of coding with hardware.`,
     techstack: "Arduino, C++, Tinkercad",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Arduino-Boards",
@@ -215,7 +208,7 @@ project lorem ipsum generator for dummy content`,
     title: "PhotoShare",
     image: projectImage6,
     description: `Social media platform project, using MySQL, Flask, and Html. Built for users to upload photos to albums 
-    while allowing commenting, liking, and viewing of other users photos with various filters`,
+    while allowing commenting, liking, and viewing of other users photos with various ways to filter viewing of photos`,
     techstack: "HTML, Python, Flask, MySQL",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Photoshare",
@@ -223,9 +216,9 @@ project lorem ipsum generator for dummy content`,
   {
     title: "Vitamin App",
     image: projectImage6,
-    description: `Mobile application built using Android Studio Java, Google Firebase, and SQLite for viewing Vitamins
-    available given a set of user input of sympotoms or issues to help with health issues,`,
-    techstack: "Android Stuido, Java, Google Firebase",
+    description: `Mobile application built for viewing Vitamins available given a set of user input of sympotoms
+     or issues to help with health issues and shows popular vitamins and news in the medical field`,
+    techstack: "Android Stuido, Java, Google Firebase, SQLite",
     previewLink: "https://google.com",
     githubLink: "https://github.com/CS501Fall2022/Vitamin_App",
   },
