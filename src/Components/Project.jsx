@@ -6,7 +6,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
       <img src={image} alt="" loading="lazy" />
       <div className="dark:bg-dark-card p-4">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
-        <p className="text-content pt-4 font-light">{description}</p>
+        <p className="text-content pt-4 font-light max-h-32 overflow-y-auto">{description}</p>
         <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
           Tech Stack : <span className="font-light">{techstack}</span>
         </h3>
