@@ -61,6 +61,7 @@ function Technologies() {
         <img src={flask} title="Flask" alt="" />
         <img src={node} title="Node.js" alt="" />
         <img src={express} title="Express.js" alt="" />
+        <img src={next} title="Next.js" alt="" />
       </section>
       <section>
         <h2 className="text-2xl text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
@@ -70,16 +71,15 @@ function Technologies() {
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
         <img src={python} title="Python" alt="" />
         <img src={java} title="Java" alt="" />
-        <img src={cplus} title="C++" alt="" />
         <img src={js} title="JavaScript" alt="" />
         <img src={typescript} title="TypeScript" alt="" />
         <img src={html} title="html" alt="" />
         <img src={css} title="CSS" alt="" />
         <img src={tailwind} title="Tailwind CSS" alt="" />
-        <img src={csharp} title="C#" alt="" />
         <img src={c} title="C" alt="" />
+        <img src={cplus} title="C++" alt="" />
+        <img src={csharp} title="C#" alt="" />
         <img src={unity} title="Unity" alt="" />
-        <img src={next} title="Next.js" alt="" />
       </section>
 
       <section>
