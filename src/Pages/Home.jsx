@@ -57,23 +57,26 @@ function Home() {
   }, []);
 
   return (
-  <main className="container mx-auto max-width section flex flex-col md:flex-row justify-center items-center dark">
+    <main className="container mx-auto max-width section flex flex-col md:flex-row justify-center items-center">
       <div className="text-center md:text-left md:w-1/2">
         <h1
           ref={h11}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl text-white md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          style={{ color: "white" }}
         >
-          Hi, My name is<br/>
+          Hi, My name is<br />
         </h1>
         <h1
           ref={h12}
           className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          style={{ backgroundClip: "text", backgroundImage: "linear-gradient(to right, #4facfe 0%, #00f2fe 100%)" }}
         >
           {name}
         </h1>
         <h2
           ref={h13}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl text-white md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          style={{ color: "white" }}
         >
           {tagline}
         </h2>
@@ -84,7 +87,7 @@ function Home() {
           className="w-2/3 h-2/3 rounded-full object-cover"
           src={img}
           alt="PJ Samuels"
-          style={{ aspectRatio: '1 / 1' }}
+          style={{ aspectRatio: "1 / 1" }}
         />
       </div>
     </main>
