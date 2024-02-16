@@ -75,7 +75,7 @@ export const personalDetails = {
   about: `Hey I'm Oliver 'PJ' Samuels, a Full-Stack and Mobile-App Web Developer. 
   I have a strong background in team collaborations and have successfully delivered and worked on various web development projects. 
   My current focus is on launching my career as a Full-Stack Web Developer, with ongoing projects in React and Angular. 
-  Additionally, I'm developing a mobile app using React Native, Firebase and the RAWG API while working on a hardware project utilizing Arduino`,
+  Additionally, I'm developing a mobile app using React Native, Firebase and the RAWG API while working on a hardware project utilizing Arduino.`,
 };
 
 // Enter your Social Media URLs here
@@ -102,7 +102,7 @@ export const workDetails = [
     Company: `Nasdaq`,
     Description: `Developed and prototyped conference meeting video web-application using HTML, CSS, JavaScript, PostgreSQL, GitLab, JSON, Flask-Python, and launched on to an AWS environment service with S3.
     Used the Zoom API and jQuery UI to enable interactive, feature-rich group calls with captions, text, and pinned participants, enhancing the corporate user experience.
-    Collaborated with Audio-Visual team to develop long-term functionality for video-based boardroom web-app, for full company use in quarterly boardroom meetings, effectively replacing a 5-person team responsible for the meetings process resulting in annual savings exceeding $42,000 per year for the company`,
+    Collaborated with Audio-Visual team to develop long-term functionality for video-based boardroom web-app, for full company use in quarterly boardroom meetings, effectively replacing a 5-person team responsible for the meetings process resulting in annual savings exceeding $42,000 per year for the company.`,
     Location: "Boston, MA",
     Type: "Internship",
     Duration: "June 2022 - Aug 2022",
@@ -112,7 +112,7 @@ export const workDetails = [
     Company: `CRACE Financial`,
     Description:`Incorporated PCA and PCoA graphing to analyze the efficiency of groups generated from hierarchical clustering.
     Conducted analysis on financial statement datasets, identifying anomalies and differences within each group, contributing to company improvements and decision-making processes.
-    Automated generation of PCA and PCoA graphs for efficient visualization of clustering groups using Python scripts with Matplotlib and pandas. Utilized Google Sheets for in-depth analysis and observations`,
+    Automated generation of PCA and PCoA graphs for efficient visualization of clustering groups using Python scripts with Matplotlib and pandas. Utilized Google Sheets for in-depth analysis and observations.`,
     Location: "Takoma Park, MD",
     Type: "Internship",
     Duration: "June 2021 - Aug 2021",
@@ -121,7 +121,7 @@ export const workDetails = [
     Position: "Test Automation Intern",
     Company: "CRACE Financial",
     Description: `Designed investor web-app working with JavaScript, CSS, X-path, basic Linux, and GitHub along with Selenium and Bootstrap.
-    Collaborated with developers to extend automated Selenium tests, ensuring smooth user authentication, bug-free functionality, contributing to the successful launch of the web-app
+    Collaborated with developers to extend automated Selenium tests, ensuring smooth user authentication, bug-free functionality, contributing to the successful launch of the web-app.
     Automated input validation, error detection, document uploads, and user sign-up processes, while refining the calendar page appearance, saving $16,000 annually and improving website testing for team efficiency.`,
     Location: "Takoma Park, MD",
     Type: "Internship",
@@ -239,7 +239,7 @@ export const projectDetails = [
     title: "PhotoShare",
     image: projectImage6,
     description: `Social media platform project, using MySQL, Flask, and HTML. Built for users to upload photos to albums 
-    while allowing commenting, liking, and viewing of other users photos with various ways to filter viewing of photos`,
+    while allowing commenting, liking, and viewing of other users photos with various ways to filter viewing of photos.`,
     techstack: "HTML, Python, Flask, MySQL",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Photoshare",
@@ -248,7 +248,7 @@ export const projectDetails = [
     title: "Vitamin App",
     image: projectImage4,
     description: `Mobile application built for viewing vitamins available given a set of user input of symptoms
-     or issues to help with health issues and shows popular vitamins and news in the medical field`,
+     or issues to help with health issues and shows popular vitamins and news in the medical field.`,
     techstack: "Android Studio, Java, Google Firebase, SQLite",
     previewLink: "https://google.com",
     githubLink: "https://github.com/CS501Fall2022/Vitamin_App",
@@ -257,7 +257,7 @@ export const projectDetails = [
     title: "Stock Visualizer",
     image: alpha,
     description: `React-Flask web application that takes user-input stock names and displays the current stock prices using the 
-    Alpha Vantage API`,
+    Alpha Vantage API.`,
     techstack: "React.js, Python, Flask, JavaScript, Alpha Vantage API",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Stock-Visualizer",
