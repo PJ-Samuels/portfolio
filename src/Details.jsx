@@ -72,7 +72,10 @@ export const personalDetails = {
   name: "PJ Samuels",
   tagline: "I'm a Full-Stack Software Developer",
   img: profile,
-  about: `Hey I'm Oliver Samuels, a Full-Stack and Mobile-App Web Developer. I have a strong background in team collaborations and have successfully delivered and worked on various web development projects. My current focus is on launching my career as a full-stack web developer, with ongoing projects in React and Angular. Additionally, I'm developing a mobile app using Flutter and working on a hardware project utilizing Arduino`,
+  about: `Hey I'm Oliver 'PJ' Samuels, a Full-Stack and Mobile-App Web Developer. 
+  I have a strong background in team collaborations and have successfully delivered and worked on various web development projects. 
+  My current focus is on launching my career as a Full-Stack Web Developer, with ongoing projects in React and Angular. 
+  Additionally, I'm developing a mobile app using React Native, Firebase and the RAWG API while working on a hardware project utilizing Arduino`,
 };
 
 // Enter your Social Media URLs here
