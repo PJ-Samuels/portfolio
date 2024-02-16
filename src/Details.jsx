@@ -42,6 +42,10 @@ import mysql from "./assets/techstack/mysql.svg";
 
 // Porject Images
 import projectImage1 from "./assets/projects/drake.png";
+import videogame from "./assets/projects/videogame.png";
+import vitalfix from "./assets/projects/vital.png";
+import pixelman from "./assets/projects/pixelman.png";
+import alpha from "./assets/projects/alpha-vantage.jpeg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
@@ -173,13 +177,13 @@ export const projectDetails = [
     A web application that helps users find fitness centers near them. Users can search for fitness centers based on their location, preferences, and fitness goals. 
     The app provides detailed information about each fitness center, including facilities, classes, trainers, and user reviews.
     `,
-    techstack: "Angular, TypeScript, Express, Node, Mongodb, Google Firebase",
+    techstack: "Angular, TypeScript, Express.js, Node.js, MongoDB, Google Firebase",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Fitness-Center-App",
   },
   {
-    title: "Pixel Man",
-    image: projectImage3,
+    title: "Pixel Man 1",
+    image: pixelman,
     description: `This is a simple
     2D platformer video game with various enemies and obstacles to avoid as the 
     user traverses through multiple levels.`,
@@ -189,8 +193,8 @@ export const projectDetails = [
   },
   {
     title: "Video Game Rater",
-    image: projectImage4,
-    description: `A mobile app allowing users to list video games they have played and rate them. 
+    image: videogame,
+    description: `A mobile application allowing users to list video games they have played and rate them. 
     Share video game ratings with friends and view other users lists and ratings.`,
     techstack: "React Native, Google Firebase, RAWG API",
     previewLink: "https://google.com",
@@ -199,7 +203,7 @@ export const projectDetails = [
   {
     title: "Arduino Boards",
     image: projectImage5,
-    description: `Introductry level Electrical Engineering and circuitry utilizing C++, Tinkercard, Arduino, and physical breadboards to get a grasp of coding with hardware.`,
+    description: `Introductory level Electrical Engineering and circuitry utilizing C++, Tinkercard, Arduino, and physical breadboards to get the experience of coding with hardware.`,
     techstack: "Arduino, C++, Tinkercad",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Arduino-Boards",
@@ -207,7 +211,7 @@ export const projectDetails = [
   {
     title: "PhotoShare",
     image: projectImage6,
-    description: `Social media platform project, using MySQL, Flask, and Html. Built for users to upload photos to albums 
+    description: `Social media platform project, using MySQL, Flask, and HTML. Built for users to upload photos to albums 
     while allowing commenting, liking, and viewing of other users photos with various ways to filter viewing of photos`,
     techstack: "HTML, Python, Flask, MySQL",
     previewLink: "https://google.com",
@@ -215,19 +219,19 @@ export const projectDetails = [
   },
   {
     title: "Vitamin App",
-    image: projectImage6,
-    description: `Mobile application built for viewing Vitamins available given a set of user input of sympotoms
+    image: projectImage4,
+    description: `Mobile application built for viewing vitamins available given a set of user input of symptoms
      or issues to help with health issues and shows popular vitamins and news in the medical field`,
-    techstack: "Android Stuido, Java, Google Firebase, SQLite",
+    techstack: "Android Studio, Java, Google Firebase, SQLite",
     previewLink: "https://google.com",
     githubLink: "https://github.com/CS501Fall2022/Vitamin_App",
   },
   {
     title: "Stock Visualizer",
-    image: projectImage6,
+    image: alpha,
     description: `React-Flask web application that takes user-input stock names and displays the current stock prices using the 
     Alpha Vantage API`,
-    techstack: "React, Python-Flask, Javascript,Alpha Vantage API",
+    techstack: "React.js, Python, Flask, JavaScript, Alpha Vantage API",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Stock-Visualizer",
   },

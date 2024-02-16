@@ -101,7 +101,6 @@ function Technologies() {
         <img src={figma} title="Figma" alt="Figma" />
         <img src={npm} title="NPM" alt="NPM" />
         <img src={arduino} title="Arduino" alt="" />
-        {/* <img src={postman} title="Postman" alt="Postman" /> */}
       </section>
     </main>
   );
