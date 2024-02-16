@@ -31,9 +31,9 @@ function Technologies() {
     figma,
   } = techStackDetails;
   return (
-    <main className="container mx-auto max-width pt-10 pb-20 dark">
+    <main className="container mx-auto max-width pt-10 pb-20">
       <section>
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tech Stack
         </h1>
         <p className="text-content py-2 lg:max-w-3xl">
@@ -41,7 +41,7 @@ function Technologies() {
         </p>
       </section>
       <section>
-        <h2 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
+        <h2 className="text-2xl text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
             Frameworks
         </h2>
       </section>
@@ -54,7 +54,7 @@ function Technologies() {
         <img src={express} title="Express.js" alt="" />
       </section>
       <section>
-        <h2 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
+        <h2 className="text-2xl text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
             Full stack Development
         </h2>
       </section>
@@ -70,7 +70,7 @@ function Technologies() {
       </section>
 
       <section>
-        <h2 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
+        <h2 className="text-2xl pt-10 text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
           Databases
         </h2>
       </section>
@@ -81,7 +81,7 @@ function Technologies() {
       <img src={firebase} title="Firebase" alt="" />
       </section>
       <section>
-        <h2 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
+        <h2 className="text-2xl pt-10 text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
           Mobile App Development
         </h2>
       </section>
@@ -90,7 +90,7 @@ function Technologies() {
         <img src={flutter} title="Flutter" alt="" />
       </section>
       <section>
-        <h2 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
+        <h2 className="text-2xl pt-10 text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
           Tools
         </h2>
       </section>
