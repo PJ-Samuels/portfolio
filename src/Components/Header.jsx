@@ -18,7 +18,7 @@ function Header() {
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
-            className="stroke-dark-heading dark:stroke-white md:hidden"
+            className="stroke-white md:hidden"
             width="25"
             height="20"
             viewBox="0 0 16 13"
@@ -35,7 +35,7 @@ function Header() {
         </div>
       </div>
       <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
-        <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
+        <ul className="text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
             <NavLink to="/portfolio2/" onClick={toggleClass}>
               Home
@@ -80,7 +80,7 @@ function Header() {
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="fill-light-heading fill-dark-heading"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -94,7 +94,7 @@ function Header() {
           <li>
             <a href={github} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="fill-light-heading fill-dark-heading"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
