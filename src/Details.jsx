@@ -34,6 +34,15 @@ import express from "./assets/techstack/express.svg";
 import node from "./assets/techstack/node.svg";
 import postgres from "./assets/techstack/postgresql.svg";
 import mysql from "./assets/techstack/mysql.svg";
+import unity from "./assets/techstack/unity.svg";
+import next from "./assets/techstack/nextjs-2.svg";
+import aws from "./assets/techstack/aws.svg";
+import azure from "./assets/techstack/azure.svg";
+import swift from "./assets/techstack/swift.svg";
+import reactnative from "./assets/techstack/react-native.svg";
+import heroku from "./assets/techstack/heroku.svg";
+import c from "./assets/techstack/clang.svg";
+import csharp from "./assets/techstack/csharp.svg";
 
 //add unity and next as well as aws ans azure, swift, react native heroku C and C#
 
@@ -78,6 +87,9 @@ export const workDetails = [
   {
     Position: "Software Engineer",
     Company: `The Boardroom`,
+    Description: `Prototyped Blackboard and Canvas alternative featuring an AI assistant, designed for widespread academic use utilizing Next.js, Typescript, PostgreSQL, and AWS to develop a web and mobile applications that addresses issues with UI/UX of its competitors.
+    Collaborated with a team of 30 people resulting in the successful development of a web platform that attracted total investments exceeding $50,000, for widespread official use in numerous universities and colleges.
+    Worked closely with Full-Stack, Mobile app, and Machine Learning executives to enhance the long-term sustainability, usability, and future features of the platform.`,
     Location: "Remote",
     Type: "Part-Time",
     Duration: "Nov 2023 - Present",
@@ -85,6 +97,9 @@ export const workDetails = [
   {
     Position: "Software Engineer Intern",
     Company: `Nasdaq`,
+    Description: `Developed and prototyped conference meeting video web-application using HTML, CSS, JavaScript, PostgreSQL, GitLab, JSON, Flask-Python, and launched on to an AWS environment service with S3.
+    Used the Zoom API and jQuery UI to enable interactive, feature-rich group calls with captions, text, and pinned participants, enhancing the corporate user experience.
+    Collaborated with Audio-Visual team to develop long-term functionality for video-based boardroom web-app, for full company use in quarterly boardroom meetings, effectively replacing a 5-person team responsible for the meetings process resulting in annual savings exceeding $42,000 per year for the company`,
     Location: "Boston, MA",
     Type: "Internship",
     Duration: "June 2022 - Aug 2022",
@@ -92,6 +107,9 @@ export const workDetails = [
   {
     Position: "Data Science Intern",
     Company: `CRACE Financial`,
+    Description:`Incorporated PCA and PCoA graphing to analyze the efficiency of groups generated from hierarchical clustering.
+    Conducted analysis on financial statement datasets, identifying anomalies and differences within each group, contributing to company improvements and decision-making processes.
+    Automated generation of PCA and PCoA graphs for efficient visualization of clustering groups using Python scripts with Matplotlib and pandas. Utilized Google Sheets for in-depth analysis and observations`,
     Location: "Takoma Park, MD",
     Type: "Internship",
     Duration: "June 2021 - Aug 2021",
@@ -99,6 +117,9 @@ export const workDetails = [
   {
     Position: "Test Automation Intern",
     Company: "CRACE Financial",
+    Description: `Designed investor web-app working with JavaScript, CSS, X-path, basic Linux, and GitHub along with Selenium and Bootstrap.
+    Collaborated with developers to extend automated Selenium tests, ensuring smooth user authentication, bug-free functionality, contributing to the successful launch of the web-app
+    Automated input validation, error detection, document uploads, and user sign-up processes, while refining the calendar page appearance, saving $16,000 annually and improving website testing for team efficiency.`,
     Location: "Takoma Park, MD",
     Type: "Internship",
     Duration: "June 2020 - Aug 2020",
@@ -106,18 +127,12 @@ export const workDetails = [
 
 ];
 
-// Enter your Education Details here
 export const eduDetails = [
-  // {
-  //   Position: "Frontend Development",
-  //   Company: "Udemy, YouTube, Google, Medium",
-  //   Location: "Online",
-  //   Type: "Full Time",
-  //   Duration: "Jan 2022 - Present",
-  // },
   {
     Position: "Bachelor in Computer Science",
     Company: `Boston Univeristy`,
+    Description: `Courses: Full-Stack Development, Software Engineering, Mobile-App Development, Databases, 
+    Probability in Computing, Geometric Algorithms, Fundamentals in Computing Systems, Computer Systems, Intro to Data Sciences`,
     Location: "Boston, MA",
     Type: "Full Time",
     Duration: "Aug 2020 -  May 2023",
@@ -155,6 +170,15 @@ export const techStackDetails = {
   node: node,
   postgres: postgres,
   mysql: mysql,
+  unity: unity,
+  next: next,
+  aws: aws,
+  azure: azure,
+  swift: swift,
+  reactnative: reactnative,
+  heroku: heroku,
+  c: c,
+  csharp: csharp,
 };
 
 // Enter your Project Details here

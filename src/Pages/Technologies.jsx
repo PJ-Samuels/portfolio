@@ -8,7 +8,6 @@ function Technologies() {
     js,
     react,
     tailwind,
-    bootstrap,
     node,
     express,
     firebase,
@@ -29,6 +28,16 @@ function Technologies() {
     mysql,
     npm,
     figma,
+    csharp,
+    c,
+    unity,
+    aws,
+    next,
+    swift,
+    azure,
+    heroku,
+    reactnative,
+
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20">
@@ -55,7 +64,7 @@ function Technologies() {
       </section>
       <section>
         <h2 className="text-2xl text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
-            Full stack Development
+            Full-Stack Development
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
@@ -67,18 +76,25 @@ function Technologies() {
         <img src={html} title="html" alt="" />
         <img src={css} title="CSS" alt="" />
         <img src={tailwind} title="Tailwind CSS" alt="" />
+        <img src={csharp} title="C#" alt="" />
+        <img src={c} title="C" alt="" />
+        <img src={unity} title="Unity" alt="" />
+        <img src={next} title="Next.js" alt="" />
       </section>
 
       <section>
         <h2 className="text-2xl pt-10 text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
-          Databases
+          Cloud Computing and Databases
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-      <img src={mongo} title="mongodb" alt="" />
-      <img src={postgres} title="PostgreSQL" alt="" />
-      <img src={mysql} title="MySQL" alt="" />
-      <img src={firebase} title="Firebase" alt="" />
+        <img src={mongo} title="mongodb" alt="" />
+        <img src={postgres} title="PostgreSQL" alt="" />
+        <img src={mysql} title="MySQL" alt="" />
+        <img src={firebase} title="Firebase" alt="" />
+        <img src={aws} title="AWS" alt="" />
+        <img src={azure} title="Azure" alt="" />
+        <img src={heroku} title="Heroku" alt="" />
       </section>
       <section>
         <h2 className="text-2xl pt-10 text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
@@ -88,6 +104,8 @@ function Technologies() {
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
         <img src={android} title="Android" alt="" />
         <img src={flutter} title="Flutter" alt="" />
+        <img src={swift} title="Swift" alt="" />
+        <img src={reactnative} title="React Native" alt="" />  
       </section>
       <section>
         <h2 className="text-2xl pt-10 text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">

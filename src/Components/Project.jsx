@@ -6,13 +6,13 @@ function Project({ title, image, description, techstack, previewLink, githubLink
       <img src={image} alt="" loading="lazy" style={{ maxHeight: "300px" }}/>
       <div className="bg-dark-card p-4">
         <h1 className="text-light-heading font-semibold text-lg pt-1">{title}</h1>
-        <p className="text-content pt-4 font-light max-h-48 overflow-y-auto">{description}</p>
+        <p className="text-content pt-4 font-light max-h-50">{description}</p>
         <h3 className="text-light-heading font-medium pt-4 h-16">
           Tech Stack : <span className="font-light">{techstack}</span>
         </h3>
         <div className="flex justify-between items-center mt-5">
           <div className="flex items-center">
-            <svg
+            {/* <svg
               className="stroke-white inline-block min-w-fit"
               width="20"
               height="20"
@@ -40,7 +40,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               className="underline pl-2 font-light text-white"
             >
               Live Preview
-            </a>
+            </a> */}
           </div>
           <div className="flex items-center">
             <svg
