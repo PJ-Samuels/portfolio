@@ -88,21 +88,33 @@ export const socialMediaUrl = {
 
 export const workDetails = [
   {
+    Position: "Full-Stack Software Engineer",
+    Company: `Freddie Mac`,
+    Description: [`Maintained and enhanced Mortgage Insurance Company (MICO) systems, internal applications, and cloud-based platforms, ensuring reliability and efficiency.`,
+      `Provided production support to resolve critical system issues, minimizing downtime and ensuring seamless operations`,
+      `Contributed to developing an Early Call Fee mitigation system, streamlining processes and reducing costs. `,
+     `Collaborated with teams to retire legacy applications, cutting maintenance expenses and improving system performance`,
+    `Delivered application updates using Angular, TypeScript, Java, Spring, and cloud technologies to enhance user experience.`],
+    Location: "McLean, VA",
+    Type: "Full-Time",
+    Duration: "June 2024 - Present",
+  },
+  {
     Position: "Software Engineer",
     Company: `The Boardroom`,
-    Description: `Prototyped Blackboard and Canvas alternative featuring an AI assistant, designed for widespread academic use utilizing Next.js, Typescript, PostgreSQL, and AWS to develop a web and mobile applications that addresses issues with UI/UX of its competitors.
-    Collaborated with a team of 30 people resulting in the successful development of a web platform that attracted total investments exceeding $50,000, for widespread official use in numerous universities and colleges.
-    Worked closely with Full-Stack, Mobile app, and Machine Learning executives to enhance the long-term sustainability, usability, and future features of the platform.`,
+    Description: [`Prototyped Blackboard and Canvas alternative featuring an AI assistant, designed for widespread academic use utilizing Next.js, Typescript, PostgreSQL, and AWS to develop a web and mobile applications that addresses issues with UI/UX of its competitors. \n`,
+    `Collaborated with a team of 30 people resulting in the successful development of a web platform that attracted total investments exceeding $50,000, for widespread official use in numerous universities and colleges.\n`,
+    `Worked closely with Full-Stack, Mobile app, and Machine Learning executives to enhance the long-term sustainability, usability, and future features of the platform.\n`],
     Location: "Remote",
     Type: "Part-Time",
-    Duration: "Nov 2023 - Present",
+    Duration: "Nov 2023 - May 2024",
   },
   {
     Position: "Software Engineer Intern",
     Company: `Nasdaq`,
-    Description: `Developed and prototyped conference meeting video web-application using HTML, CSS, JavaScript, PostgreSQL, GitLab, JSON, Flask-Python, and launched on to an AWS environment service with S3.
-    Used the Zoom API and jQuery UI to enable interactive, feature-rich group calls with captions, text, and pinned participants, enhancing the corporate user experience.
-    Collaborated with Audio-Visual team to develop long-term functionality for video-based boardroom web-app, for full company use in quarterly boardroom meetings, effectively replacing a 5-person team responsible for the meetings process resulting in annual savings exceeding $42,000 per year for the company.`,
+    Description: [`Developed and prototyped conference meeting video web-application using HTML, CSS, JavaScript, PostgreSQL, GitLab, JSON, Flask-Python, and launched on to an AWS environment service with S3.`,
+    `Used the Zoom API and jQuery UI to enable interactive, feature-rich group calls with captions, text, and pinned participants, enhancing the corporate user experience.`,
+    `Collaborated with Audio-Visual team to develop long-term functionality for video-based boardroom web-app, for full company use in quarterly boardroom meetings, effectively replacing a 5-person team responsible for the meetings process resulting in annual savings exceeding $42,000 per year for the company.`],
     Location: "Boston, MA",
     Type: "Internship",
     Duration: "June 2022 - Aug 2022",
@@ -110,9 +122,9 @@ export const workDetails = [
   {
     Position: "Data Science Intern",
     Company: `CRACE Financial`,
-    Description:`Incorporated PCA and PCoA graphing to analyze the efficiency of groups generated from hierarchical clustering.
-    Conducted analysis on financial statement datasets, identifying anomalies and differences within each group, contributing to company improvements and decision-making processes.
-    Automated generation of PCA and PCoA graphs for efficient visualization of clustering groups using Python scripts with Matplotlib and pandas. Utilized Google Sheets for in-depth analysis and observations.`,
+    Description:[`Incorporated PCA and PCoA graphing to analyze the efficiency of groups generated from hierarchical clustering.`,
+    `Conducted analysis on financial statement datasets, identifying anomalies and differences within each group, contributing to company improvements and decision-making processes.`,
+    `Automated generation of PCA and PCoA graphs for efficient visualization of clustering groups using Python scripts with Matplotlib and pandas. Utilized Google Sheets for in-depth analysis and observations.`],
     Location: "Takoma Park, MD",
     Type: "Internship",
     Duration: "June 2021 - Aug 2021",
@@ -120,9 +132,9 @@ export const workDetails = [
   {
     Position: "Test Automation Intern",
     Company: "CRACE Financial",
-    Description: `Designed investor web-app working with JavaScript, CSS, X-path, basic Linux, and GitHub along with Selenium and Bootstrap.
-    Collaborated with developers to extend automated Selenium tests, ensuring smooth user authentication, bug-free functionality, contributing to the successful launch of the web-app.
-    Automated input validation, error detection, document uploads, and user sign-up processes, while refining the calendar page appearance, saving $16,000 annually and improving website testing for team efficiency.`,
+    Description: [`Designed investor web-app working with JavaScript, CSS, X-path, basic Linux, and GitHub along with Selenium and Bootstrap.`,
+    `Collaborated with developers to extend automated Selenium tests, ensuring smooth user authentication, bug-free functionality, contributing to the successful launch of the web-app.`,
+    `Automated input validation, error detection, document uploads, and user sign-up processes, while refining the calendar page appearance, saving $16,000 annually and improving website testing for team efficiency.`],
     Location: "Takoma Park, MD",
     Type: "Internship",
     Duration: "June 2020 - Aug 2020",
@@ -134,8 +146,8 @@ export const eduDetails = [
   {
     Position: "Bachelor in Computer Science",
     Company: `Boston Univeristy`,
-    Description: `Courses: Full-Stack Development, Software Engineering, Mobile-App Development, Databases, 
-    Probability in Computing, Geometric Algorithms, Fundamentals in Computing Systems, Computer Systems, Intro to Data Sciences`,
+    Description: [`Courses: Full-Stack Development, Software Engineering, Mobile-App Development, Databases, 
+    Probability in Computing, Geometric Algorithms, Fundamentals in Computing Systems, Computer Systems, Intro to Data Sciences`],
     Location: "Boston, MA",
     Type: "Full Time",
     Duration: "Aug 2020 -  May 2023",

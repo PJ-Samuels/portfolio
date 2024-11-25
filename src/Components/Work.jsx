@@ -45,7 +45,11 @@ function Work({ position, company, location, type, duration , description}) {
       <details className="pt-2">
         <summary className="text-content text-xs md:text-sm font-light cursor-pointer">
         </summary>
-        <p className="text-content text-sm font-light pl-1">{description}</p>
+        {description.map((item, index) => (
+          <p key={index} className="text-content text-sm font-light pl-1">
+            - {item}
+          </p>
+        ))}
       </details>
     </article>
   );
