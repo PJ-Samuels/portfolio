@@ -1,6 +1,6 @@
 import React from "react";
 
-function Work({ position, company, location, type, duration , description}) {
+function Work({ position, company, location, type, duration, description }) {
   return (
     <article className="pt-8 border-b-2 border-dark-content pb-5 border-light-content border-opacity-20">
       <div className="flex justify-between items-center">
@@ -40,15 +40,15 @@ function Work({ position, company, location, type, duration , description}) {
             <p className="text-content text-xs md:text-sm font-light pl-1">{location}</p>
           </div>
         </div>
-        <p className="text-content text-xs md:text-sm font-light pl-1 min-w-fit">{duration}</p> 
+        <p className="text-content text-xs md:text-sm font-light pl-1 min-w-fit">{duration}</p>
       </div>
       <details className="pt-2">
         <summary className="text-content text-xs md:text-sm font-light cursor-pointer">
         </summary>
         {description.map((item, index) => (
-          <p key={index} className="text-content text-sm font-light pl-1">
-            - {item}
-          </p>
+          <ul key={index} className="list-disc pl-5">
+            <li className="text-content text-sm font-light">{item}</li>
+          </ul>
         ))}
       </details>
     </article>

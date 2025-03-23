@@ -37,6 +37,7 @@ function Technologies() {
     azure,
     heroku,
     reactnative,
+    graphql,
 
   } = techStackDetails;
   return (
@@ -51,21 +52,21 @@ function Technologies() {
       </section>
       <section>
         <h2 className="text-2xl text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
-            Frameworks
+          Frameworks
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
 
-        <img src={react} title="React" alt="" style={{ filter: 'hue-rotate(180deg)' }} />
+        <img src={react} title="React" alt="" />
         <img src={angular} title="Angular" alt="" />
-        <img src={flask} title="Flask" alt="" />
         <img src={node} title="Node.js" alt="" />
-        <img src={express} title="Express.js" alt="" />
-        <img src={next} title="Next.js" alt="" />
+        <img src={flask} title="Flask" alt="" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }} />
+        <img src={express} title="Express.js" alt="" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }} />
+        <img src={next} title="Next.js" alt="" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }} />
       </section>
       <section>
         <h2 className="text-2xl text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
-            Full-Stack Development
+          Full-Stack Development
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
@@ -88,11 +89,13 @@ function Technologies() {
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={mongo} title="mongodb" alt="" />
+
         <img src={postgres} title="PostgreSQL" alt="" />
-        <img src={mysql} title="MySQL" alt="" />
         <img src={firebase} title="Firebase" alt="" />
         <img src={aws} title="AWS" alt="" />
+        <img src={mongo} title="mongodb" alt="" />
+        <img src={mysql} title="MySQL" alt="" />
+        <img src={graphql} title="GraphQL" alt="" />
         <img src={azure} title="Azure" alt="" />
         <img src={heroku} title="Heroku" alt="" />
       </section>
@@ -102,10 +105,10 @@ function Technologies() {
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+        <img src={reactnative} title="React Native" alt="" />
         <img src={android} title="Android" alt="" />
         <img src={flutter} title="Flutter" alt="" />
         <img src={swift} title="Swift" alt="" />
-        <img src={reactnative} title="React Native" alt="" />  
       </section>
       <section>
         <h2 className="text-2xl pt-10 text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
