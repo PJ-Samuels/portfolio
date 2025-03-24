@@ -218,7 +218,7 @@ export const featuredProjectDetails = [
     Share video game ratings with friends and view other users lists and ratings.`,
     techstack: "React Native, TypeScript, Google Firebase, RAWG API, Clerk Authentication",
     previewLink: "https://google.com",
-    githubLink: "https://github.com/PJ-Samuels/Stock-Visualizer"
+    githubLink: "https://github.com/PJ-Samuels/"
   },
 
 ]
