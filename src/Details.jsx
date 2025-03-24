@@ -44,6 +44,9 @@ import heroku from "./assets/techstack/heroku.svg";
 import c from "./assets/techstack/clang.svg";
 import csharp from "./assets/techstack/csharp.svg";
 import graphql from "./assets/techstack/graphql.svg"
+import bitbucket from "./assets/techstack/bitbucket.svg"
+import intellij from "./assets/techstack/intellij.svg"
+import sourcetree from "./assets/techstack/sourcetree.svg"
 
 //add unity and next as well as aws ans azure, swift, react native heroku C and C#
 
@@ -167,7 +170,6 @@ export const techStackDetails = {
   tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
-  postman: postman,
   npm: npm,
   git: git,
   mongo: mongo,
@@ -197,6 +199,9 @@ export const techStackDetails = {
   c: c,
   csharp: csharp,
   graphql: graphql,
+  sourcetree: sourcetree,
+  bitbucket: bitbucket,
+  intellij: intellij
 };
 
 // Enter your Project Details here

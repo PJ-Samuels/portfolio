@@ -39,7 +39,9 @@ function Technologies() {
     postman,
     reactnative,
     graphql,
-
+    intellij,
+    sourcetree,
+    bitbucket
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20">
@@ -123,6 +125,9 @@ function Technologies() {
       <a href="https://www.figma.com/"><img src={figma} title="Figma" alt="Figma" /></a>
       <a href="https://www.npmjs.com/"><img src={npm} title="NPM" alt="NPM" /></a>
       <a href="https://www.arduino.cc/"><img src={arduino} title="Arduino" alt="" /></a>
+      <a href="https://bitbucket.org/product/"><img src={bitbucket} title="bitbucket" alt="" /></a>
+      <a href="https://www.jetbrains.com/idea/"><img src={intellij} title="intellij" alt="" /></a>
+      <a href="https://www.sourcetreeapp.com/"><img src={sourcetree} title="sourcetree" alt="" /></a>
       </section>
     </main>
   );
