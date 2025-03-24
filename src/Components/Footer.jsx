@@ -6,7 +6,7 @@ function Footer() {
         Designed and Coded by{" "}
         <a
           className="font-medium"
-          href="/portfolio2/"
+          href="/portfolio/"
           target="_blank"
           rel="noreferrer noopener"
         >

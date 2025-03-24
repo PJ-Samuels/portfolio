@@ -9,7 +9,7 @@ function Header() {
     setIsOpen(!isOpen);
   };
   const downloadPdf = () => {
-    fetch('/portfolio2/assets/resume.pdf') 
+    fetch('/portfolio/assets/resume.pdf') 
       .then((response) => response.blob())
       .then((blob) => {
         const url = window.URL.createObjectURL(new Blob([blob]));
@@ -27,7 +27,7 @@ function Header() {
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
-        <NavLink to="/portfolio2/">
+        <NavLink to="/portfolio/">
           {/* <img className="w-14" src={logos.logogradient} alt="logo" /> */}
           <p className="text-base bg-clip-text bg-gradient text-transparent md:text-2xl xl:text-3xl xl:leading-tight font-bold">PJ Samuels</p>
         </NavLink>
@@ -52,27 +52,27 @@ function Header() {
       <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
         <ul className="text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
-            <NavLink to="/portfolio2/" onClick={toggleClass}>
+            <NavLink to="/portfolio/" onClick={toggleClass}>
               Home
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/portfolio2/about" onClick={toggleClass}>
+            <NavLink to="/portfolio/about" onClick={toggleClass}>
               About
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/portfolio2/technologies" onClick={toggleClass}>
+            <NavLink to="/portfolio/technologies" onClick={toggleClass}>
               Technologies
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/portfolio2/projects" onClick={toggleClass}>
+            <NavLink to="/portfolio/projects" onClick={toggleClass}>
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio2/contact" onClick={toggleClass}>
+            <NavLink to="/portfolio/contact" onClick={toggleClass}>
               Contact
             </NavLink>
           </li>
