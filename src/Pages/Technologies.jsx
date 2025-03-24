@@ -36,6 +36,7 @@ function Technologies() {
     swift,
     azure,
     heroku,
+    postman,
     reactnative,
     graphql,
 
@@ -57,12 +58,12 @@ function Technologies() {
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
 
-        <img src={react} title="React" alt="" />
-        <img src={angular} title="Angular" alt="" />
-        <img src={node} title="Node.js" alt="" />
-        <img src={flask} title="Flask" alt="" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }} />
-        <img src={express} title="Express.js" alt="" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }} />
-        <img src={next} title="Next.js" alt="" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }} />
+        <a href="https://react.dev/"><img src={react} title="React" alt="" /></a>
+        <a href="https://angular.dev/"><img src={angular} title="Angular" alt="" /></a>
+        <a href="https://nodejs.org/en"><img src={node} title="Node.js" alt="" /></a>
+        <a href="https://flask.palletsprojects.com/en/stable/"><img src={flask} title="Flask" alt="" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }} /></a>
+        <a href="https://expressjs.com/"><img src={express} title="Express.js" alt="" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }} /></a>
+        <a href="https://nextjs.org/"><img src={next} title="Next.js" alt="" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }} /></a>
       </section>
       <section>
         <h2 className="text-2xl text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
@@ -70,17 +71,17 @@ function Technologies() {
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={python} title="Python" alt="" />
-        <img src={java} title="Java" alt="" />
-        <img src={js} title="JavaScript" alt="" />
-        <img src={typescript} title="TypeScript" alt="" />
-        <img src={html} title="html" alt="" />
-        <img src={css} title="CSS" alt="" />
-        <img src={tailwind} title="Tailwind CSS" alt="" />
-        <img src={c} title="C" alt="" />
-        <img src={cplus} title="C++" alt="" />
-        <img src={csharp} title="C#" alt="" />
-        <img src={unity} title="Unity" alt="" />
+        <a href="https://www.python.org/"><img src={python} title="Python" alt="" /></a>
+        <a href="https://www.java.com/en/"><img src={java} title="Java" alt="" /></a>
+        <a href="https://www.javascript.com/"><img src={js} title="JavaScript" alt="" /></a>
+        <a href="https://www.typescriptlang.org/"><img src={typescript} title="TypeScript" alt="" /></a>
+        <a href="https://www.w3schools.com/html/"><img src={html} title="html" alt="" /></a>
+        <a href="https://www.w3schools.com/css/"><img src={css} title="CSS" alt="" /></a>
+        <a href="https://tailwindcss.com/"><img src={tailwind} title="Tailwind CSS" alt="" /></a>
+        <a href="https://www.w3schools.com/c/"><img src={c} title="C" alt="" /></a>
+        <a href="https://www.w3schools.com/cpp/"><img src={cplus} title="C++" alt="" /></a>
+        <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src={csharp} title="C#" alt="" /></a>
+        <a href="https://unity.com/"><img src={unity} title="Unity" alt="" /></a>
       </section>
 
       <section>
@@ -89,15 +90,15 @@ function Technologies() {
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-
-        <img src={postgres} title="PostgreSQL" alt="" />
-        <img src={firebase} title="Firebase" alt="" />
-        <img src={aws} title="AWS" alt="" />
-        <img src={mongo} title="mongodb" alt="" />
-        <img src={mysql} title="MySQL" alt="" />
-        <img src={graphql} title="GraphQL" alt="" />
-        <img src={azure} title="Azure" alt="" />
-        <img src={heroku} title="Heroku" alt="" />
+        <a href="https://www.postgresql.org/"><img src={postgres} title="PostgreSQL" alt="" /></a>
+        <a href="https://firebase.google.com/"><img src={firebase} title="Firebase" alt="" /></a>
+        <a href="https://aws.amazon.com/free/"><img src={aws} title="AWS" alt="" /></a>
+        <a href="https://www.mongodb.com/"><img src={mongo} title="mongodb" alt="" /></a>
+        <a href="https://www.mysql.com/"><img src={mysql} title="MySQL" alt="" /></a>
+        <a href="https://graphql.org/"><img src={graphql} title="GraphQL" alt="" /></a>
+        <a href="https://azure.microsoft.com/en-us/"><img src={azure} title="Azure" alt="" /></a>
+        <a href="https://www.heroku.com/"><img src={heroku} title="Heroku" alt="" /></a>
+        <a href="https://www.postman.com/"><img src={postman} title="Postman" alt="" /></a>
       </section>
       <section>
         <h2 className="text-2xl pt-10 text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
@@ -105,10 +106,10 @@ function Technologies() {
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={reactnative} title="React Native" alt="" />
-        <img src={android} title="Android" alt="" />
-        <img src={flutter} title="Flutter" alt="" />
-        <img src={swift} title="Swift" alt="" />
+      <a href="https://reactnative.dev/"><img src={reactnative} title="React Native" alt="" /></a>
+      <a href="https://developer.android.com/"><img src={android} title="Android" alt="" /></a>
+      <a href="https://flutter.dev/"> <img src={flutter} title="Flutter" alt="" /></a>
+      <a href="https://www.swift.org/"><img src={swift} title="Swift" alt="" /></a>
       </section>
       <section>
         <h2 className="text-2xl pt-10 text-light-heading md:text-4xl xl:text-5xl xl:leading-tight">
@@ -116,12 +117,12 @@ function Technologies() {
         </h2>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={vscode} title="Visual Studio Code" alt="" />
-        <img src={git} title="Git" alt="Git" />
-        <img src={github} title="Github" alt="Github" />
-        <img src={figma} title="Figma" alt="Figma" />
-        <img src={npm} title="NPM" alt="NPM" />
-        <img src={arduino} title="Arduino" alt="" />
+      <a href="https://code.visualstudio.com/"><img src={vscode} title="Visual Studio Code" alt="" /></a>
+      <a href="https://git-scm.com/"><img src={git} title="Git" alt="Git" /></a>
+      <a href="https://github.com/"><img src={github} title="Github" alt="Github" style={{ filter: "invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg)" }}/></a>
+      <a href="https://www.figma.com/"><img src={figma} title="Figma" alt="Figma" /></a>
+      <a href="https://www.npmjs.com/"><img src={npm} title="NPM" alt="NPM" /></a>
+      <a href="https://www.arduino.cc/"><img src={arduino} title="Arduino" alt="" /></a>
       </section>
     </main>
   );

@@ -5,20 +5,20 @@ import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/headshot.jpg";
 // Tech stack images
-import html from "./assets/techstack/html.png";
-import css from "./assets/techstack/css.png";
+import html from "./assets/techstack/html.svg";
+import css from "./assets/techstack/css.svg";
 import sass from "./assets/techstack/sass.png";
-import js from "./assets/techstack/js.png";
+import js from "./assets/techstack/js.svg";
 import react from "./assets/techstack/react.svg";
 import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
+import tailwind from "./assets/techstack/tailwind.svg";
 import bootstrap from "./assets/techstack/bootstrap.png";
-import vscode from "./assets/techstack/vscode.png";
-import github from "./assets/techstack/github.png";
-import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+import vscode from "./assets/techstack/vscode.svg";
+import github from "./assets/techstack/github.svg";
+import git from "./assets/techstack/git.svg";
+import npm from "./assets/techstack/npm.svg";
+import postman from "./assets/techstack/postman.svg";
+import figma from "./assets/techstack/figma.svg";
 import mongo from "./assets/techstack/mongodb.svg";
 import cplus from "./assets/techstack/c++.svg";
 import flutter from "./assets/techstack/flutter.svg";
@@ -177,6 +177,7 @@ export const techStackDetails = {
   flutter: flutter,
   arduino: arduino,
   python: python,
+  postman: postman,
   java: java,
   typescript: typescript,
   angular: angular,
