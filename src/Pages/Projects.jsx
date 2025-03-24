@@ -28,7 +28,8 @@ function Projects() {
             )
           )}
         </div>
-        <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-x-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">x */}
           {React.Children.toArray(
             projectDetails.map(
               ({ title, image, description, techstack, previewLink, githubLink }) => (
@@ -47,8 +48,7 @@ function Projects() {
         <br />
         <h2 className="text-xl text-light-heading md:text-4xl xl:text-4xl xl:leading-tight font-bold">Archives</h2>
         <details className="pt-2">
-          <summary className="text-content text-xs md:text-sm font-light cursor-pointer">
-          </summary>
+          <summary className="text-content text-xs md:text-sm font-light cursor-pointer"></summary>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
             {React.Children.toArray(
               archives.map(
