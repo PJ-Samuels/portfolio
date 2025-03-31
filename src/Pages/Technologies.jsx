@@ -41,7 +41,9 @@ function Technologies() {
     graphql,
     intellij,
     sourcetree,
-    bitbucket
+    bitbucket,
+    spring,
+    selenium
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20">
@@ -84,6 +86,9 @@ function Technologies() {
         <a href="https://www.w3schools.com/cpp/"><img src={cplus} title="C++" alt="" /></a>
         <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src={csharp} title="C#" alt="" /></a>
         <a href="https://unity.com/"><img src={unity} title="Unity" alt="" /></a>
+        <a href="https://spring.io/"><img src={spring} title="Spring" alt="" /></a>
+        <a href="https://spring.io/"><img src={selenium} title="Selenium" alt="" /></a>
+
       </section>
 
       <section>

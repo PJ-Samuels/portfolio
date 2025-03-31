@@ -47,7 +47,8 @@ import graphql from "./assets/techstack/graphql.svg"
 import bitbucket from "./assets/techstack/bitbucket.svg"
 import intellij from "./assets/techstack/intellij.svg"
 import sourcetree from "./assets/techstack/sourcetree.svg"
-
+import spring from "./assets/techstack/spring.svg"
+import selenium from "./assets/techstack/selenium.svg"
 //add unity and next as well as aws ans azure, swift, react native heroku C and C#
 
 
@@ -201,7 +202,9 @@ export const techStackDetails = {
   graphql: graphql,
   sourcetree: sourcetree,
   bitbucket: bitbucket,
-  intellij: intellij
+  intellij: intellij,
+  spring: spring,
+  selenium: selenium,
 };
 
 // Enter your Project Details here
