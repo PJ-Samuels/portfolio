@@ -100,7 +100,7 @@ export const workDetails = [
       `Develop the Early Call Fee mitigation system within ACIS (Agency Credit Insurance Structure) — an internal tool supporting the loan lifecycle from origination to transaction issuance — simplifying operations and enabling an estimated $200K–$300K in additional profit per submission`,
       `Decommissioned and retired legacy applications in collaboration with cross-functional teams, reducing maintenance costs, cutting expenses and enhancing overall system performance`,
       `Collaborated with a team to strategize migration of core internal and external facing applications (PMI Recon, TMI Claims, IMAGIN)  microservices to new AWS EKS cluster pods to new pipeline and infrastructures, aligning  with company standards and enabling the adoption of new technologies.`,
-      `Provided production support for 10 critical applications, quickly resolving issues to minimize downtime and maintain business continuity.`
+      `Provided production support for 10 critical applications, quickly resolving issues to minimize downtime and maintain business continuity.`,
       `Migrated legacy PostgreSQL and RESTful API calls to a GraphQL database and querying, enabling real-time data streaming and significantly improving query efficiency and response times.`,
       `Designed and implemented unit and automated testing frameworks across 6 modernized applications, improving test coverage, reducing manual effort, and ensuring faster, more reliable releases`,
       `Utilized Agile and SCRUM project development, leadership, adaptability, problem solving, production support, and cross-functional collaboration to deliver high-impact software solutions.`,
