@@ -95,10 +95,15 @@ export const workDetails = [
   {
     Position: "Full-Stack Software Engineer",
     Company: `Freddie Mac`,
-    Description: [`Maintained and enhanced Mortgage Insurance Company (MICO) systems, internal applications, and cloud-based platforms, ensuring reliability and efficiency.`,
-      `Provided production support to resolve critical system issues, minimizing downtime and ensuring seamless operations`,
-      `Contributed to developing an Early Call Fee mitigation system, streamlining processes and reducing costs. `,
-      `Collaborated with teams to retire legacy applications, cutting maintenance expenses and improving system performance`,
+    Description: [
+      `Modernized an internal web application by rewriting legacy Angular (v7)  to a modern Angular application (v19). By leveraging typescript and properly defining types, maintainability and readability of the code was significantly improved. Achieved faster and cleaner UI with smoother rendering for an improved user experience.`,
+      `Develop the Early Call Fee mitigation system within ACIS (Agency Credit Insurance Structure) — an internal tool supporting the loan lifecycle from origination to transaction issuance — simplifying operations and enabling an estimated $200K–$300K in additional profit per submission`,
+      `Decommissioned and retired legacy applications in collaboration with cross-functional teams, reducing maintenance costs, cutting expenses and enhancing overall system performance`,
+      `Collaborated with a team to strategize migration of core internal and external facing applications (PMI Recon, TMI Claims, IMAGIN)  microservices to new AWS EKS cluster pods to new pipeline and infrastructures, aligning  with company standards and enabling the adoption of new technologies.`,
+      `Provided production support for 10 critical applications, quickly resolving issues to minimize downtime and maintain business continuity.`
+      `Migrated legacy PostgreSQL and RESTful API calls to a GraphQL database and querying, enabling real-time data streaming and significantly improving query efficiency and response times.`,
+      `Designed and implemented unit and automated testing frameworks across 6 modernized applications, improving test coverage, reducing manual effort, and ensuring faster, more reliable releases`,
+      `Utilized Agile and SCRUM project development, leadership, adaptability, problem solving, production support, and cross-functional collaboration to deliver high-impact software solutions.`,
       `Delivered application updates using Angular, TypeScript, Java, Spring, and cloud technologies to enhance user experience.`],
     Location: "McLean, VA",
     Type: "Full-Time",
