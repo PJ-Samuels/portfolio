@@ -215,6 +215,20 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const featuredProjectDetails = [
   {
+    title: "GameVault",
+    image: videogame,
+    description: `A social iOS and Android app for rating and reviewing the video games you play. 
+    Build your game shelf, follow friends, and see what they're playing. Currently in TestFlight beta.`,
+    techstack: "React Native, Expo, TypeScript, AWS Lambda, API Gateway, Aurora DSQL, S3, Google Firebase, Clerk Authentication, IGDB API",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/PJ-Samuels/GameVault",
+    highlights: [
+      "Serverless AWS backend (Lambda, API Gateway, Aurora DSQL)",
+      "Clerk sign-in with Firebase security rules",
+      "Reporting, blocking, and content filtering",
+    ],
+  },
+  {
     title: "Notified",
     image: projectImage1,
     description: `
@@ -224,15 +238,6 @@ export const featuredProjectDetails = [
     techstack: "React.js, PostgreSQL, Express.js, Node.js, Spotify API, Flutter",
     previewLink: "https://google.com",
     githubLink: "https://github.com/PJ-Samuels/Notified-App",
-  },
-  {
-    title: "GameVault",
-    image: videogame,
-    description: `A mobile application allowing users to list video games they have played and rate them. 
-    Share video game ratings with friends and view other users lists and ratings.`,
-    techstack: "React Native, TypeScript, Google Firebase, RAWG API, Clerk Authentication",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/PJ-Samuels/"
   },
 
 ]

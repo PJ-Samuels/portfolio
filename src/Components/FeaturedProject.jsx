@@ -1,14 +1,32 @@
 import React from "react";
 
-function FeaturedProject({ title, image, description, techstack, previewLink, githubLink }) {
+function FeaturedProject({ title, image, description, techstack, previewLink, githubLink, highlights, large = false }) {
   return (
     // <article className="rounded-xl mt-10 overflow-hidden shadow-2xl shadow-slate-400 dark:shadow-slate-900 flex flex-col w-full md:w-2/3 lg:w-1/2 mx-auto">
-    <article className="rounded-xl overflow-hidden shadow-xl flex flex-col min-h-[450px] p-6">
-
-      <img src={image} alt="" loading="lazy" style={{ maxHeight: "400px", width: "100%" }} />
-      <div className="bg-dark-card p-6 flex flex-col h-full">
-        <h1 className="text-light-heading font-bold text-2xl">{title}</h1>
-        <p className="text-content pt-6 font-light flex-grow text-lg">{description}</p>
+    <article
+      className="rounded-xl overflow-hidden shadow-xl flex flex-col lg:flex-row lg:items-center bg-dark-card"
+    >
+      <div className="p-6 pb-0 lg:pb-6 lg:pr-0 lg:w-[496px] lg:flex-shrink-0">
+        <img
+          src={image}
+          alt=""
+          loading="lazy"
+          className="w-full max-h-[400px] object-cover rounded-lg"
+        />
+      </div>
+      <div className={`flex flex-col flex-1 ${large ? "p-6 md:p-10" : "p-6 md:p-8"}`}>
+        {large && (
+          <span className="text-xs uppercase tracking-widest text-content font-medium">Featured Project</span>
+        )}
+        <h1 className={`text-light-heading font-bold ${large ? "text-3xl md:text-4xl pt-2" : "text-2xl"}`}>{title}</h1>
+        <p className={`text-content font-light text-lg ${large ? "pt-4" : "pt-6 flex-grow"}`}>{description}</p>
+        {highlights && highlights.length > 0 && (
+          <ul className="list-disc pl-5 pt-4 space-y-2 text-content font-light flex-grow">
+            {highlights.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        )}
 
         <div className="mt-auto">
           <h3 className="text-light-heading font-medium pt-6 text-lg">

@@ -12,11 +12,13 @@ function Projects() {
         <h1 className="text-2xl text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Projects
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="flex flex-col gap-10 mt-10">
           {React.Children.toArray(
             featuredProjectDetails.map(
-              ({ title, image, description, techstack, previewLink, githubLink }) => (
+              ({ title, image, description, techstack, previewLink, githubLink, highlights }, index) => (
                 <FeaturedProject
+                  large={index === 0}
+                  highlights={highlights}
                   title={title}
                   image={image}
                   description={description}
