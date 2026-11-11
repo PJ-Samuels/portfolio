@@ -15,10 +15,11 @@ function Projects() {
         <div className="flex flex-col gap-10 mt-10">
           {React.Children.toArray(
             featuredProjectDetails.map(
-              ({ title, image, description, techstack, previewLink, githubLink, highlights }, index) => (
+              ({ title, image, description, techstack, previewLink, githubLink, highlights, links }, index) => (
                 <FeaturedProject
                   large={index === 0}
                   highlights={highlights}
+                  links={links}
                   title={title}
                   image={image}
                   description={description}

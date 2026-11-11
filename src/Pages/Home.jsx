@@ -84,6 +84,8 @@ function Home() {
           className="w-2/3 h-2/3 rounded-full object-cover"
           src={img}
           alt="PJ Samuels"
+          fetchpriority="high"
+          decoding="async"
           style={{ aspectRatio: '1 / 1' }}
         />
       </div>

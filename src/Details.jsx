@@ -227,6 +227,13 @@ export const featuredProjectDetails = [
       "Clerk sign-in with Firebase security rules",
       "Reporting, blocking, and content filtering",
     ],
+    // TODO: replace the "#" placeholders once the site and store listings are live
+    links: [
+      { label: "Website", href: "#" },
+      { label: "App Store", href: "#" },
+      { label: "Google Play", href: "#" },
+      { label: "Email", href: "mailto:gamevaultapp.info@gmail.com" },
+    ],
   },
   {
     title: "Notified",

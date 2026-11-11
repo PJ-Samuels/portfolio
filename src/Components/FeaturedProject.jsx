@@ -1,6 +1,6 @@
 import React from "react";
 
-function FeaturedProject({ title, image, description, techstack, previewLink, githubLink, highlights, large = false }) {
+function FeaturedProject({ title, image, description, techstack, previewLink, githubLink, highlights, links, large = false }) {
   return (
     // <article className="rounded-xl mt-10 overflow-hidden shadow-2xl shadow-slate-400 dark:shadow-slate-900 flex flex-col w-full md:w-2/3 lg:w-1/2 mx-auto">
     <article
@@ -13,6 +13,20 @@ function FeaturedProject({ title, image, description, techstack, previewLink, gi
           loading="lazy"
           className="w-full max-h-[400px] object-cover rounded-lg"
         />
+        {links && links.length > 0 && (
+          <div className="flex flex-wrap gap-2 pt-4">
+            {links.map(({ label, href }) => (
+              <a
+                key={label}
+                href={href}
+                {...(href.startsWith("http") ? { target: "_blank", rel: "noreferrer noopener" } : {})}
+                className="rounded-full border border-light-content/40 px-4 py-1.5 text-sm text-white font-light hover:bg-white/10 transition-colors"
+              >
+                {label}
+              </a>
+            ))}
+          </div>
+        )}
       </div>
       <div className={`flex flex-col flex-1 ${large ? "p-6 md:p-10" : "p-6 md:p-8"}`}>
         {large && (
